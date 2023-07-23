@@ -1,6 +1,6 @@
 package cn.yujiawei.chatbot.api.domain.zsxq.model.vo;
 
-public class Owner
+public class Questionee
 {
     private String user_id;
 
@@ -8,6 +8,15 @@ public class Owner
 
     private String avatar_url;
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    private String description;
     private String location;
 
     public String getUser_id() {
